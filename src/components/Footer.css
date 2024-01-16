@@ -1,0 +1,26 @@
+footer .btn {
+  --bs-btn-border-radius: 50%;
+  transition: all 0.3s ease;
+  margin: 0 1rem;
+}
+footer .btn:hover {
+  --bs-btn-border-radius: 20%;
+  scale: 1.5;
+  margin: 0 2rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  footer .btn {
+    margin: 0 0.4rem;
+  }
+  footer .btn:hover {
+    scale: 1.4;
+    margin: 0 0.8rem;
+  }
+}
