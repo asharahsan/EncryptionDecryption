@@ -68,7 +68,7 @@ export default function Footer() {
           </section>
         </div>
         <h4 className="text-center">
-          Made with ❤️ by {"Ahsan Arif"}
+          Made by {"Ahsan Arif"}
         </h4>
       </footer>
     </div>
